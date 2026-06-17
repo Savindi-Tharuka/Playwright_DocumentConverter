@@ -1,0 +1,23 @@
+{
+  "name": "playwright-document-converter",
+  "version": "1.0.0",
+  "description": "Automation testing for Document Converter (Image, Word, PDF) using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test && npx playwright show-report",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
